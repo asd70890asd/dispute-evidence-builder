@@ -1,0 +1,50 @@
+[
+  {
+    "filename": "movein_wall.png",
+    "kind": "photo",
+    "date": "2025-09-01",
+    "description": "Move-in photo: living room wall, no visible damage or stains."
+  },
+  {
+    "filename": "chat_leak.txt",
+    "kind": "chat_log",
+    "date": "2026-03-15",
+    "description": "Chat log: tenant reports a leak under the kitchen sink; landlord replies on 2026-03-16 saying someone will be sent this week."
+  },
+  {
+    "filename": "plumber_receipt.txt",
+    "kind": "receipt",
+    "date": "2026-04-02",
+    "description": "Plumber repair receipt: $150 for kitchen sink leak repair."
+  },
+  {
+    "filename": "moveout_stain.png",
+    "kind": "photo",
+    "date": "2026-08-28",
+    "description": "Move-out photo: faint discoloration mark on the bedroom wall near the window."
+  },
+  {
+    "filename": "cleaning_receipt.txt",
+    "kind": "receipt",
+    "date": "2026-08-29",
+    "description": "Professional cleaning receipt: $180, paid by tenant before move-out."
+  },
+  {
+    "filename": "deduction_letter.txt",
+    "kind": "document",
+    "date": "2026-09-05",
+    "description": "Landlord deduction letter: $800 withheld from deposit \u2014 $500 for wall repainting and $300 for cleaning."
+  },
+  {
+    "filename": "lease_excerpt.txt",
+    "kind": "document",
+    "date": "2025-09-01",
+    "description": "Lease excerpt: tenant is not responsible for normal wear and tear."
+  },
+  {
+    "filename": "chat_dispute.txt",
+    "kind": "chat_log",
+    "date": "2026-09-06",
+    "description": "Chat log: tenant disputes the $800 deduction and mentions the $180 cleaning receipt."
+  }
+]

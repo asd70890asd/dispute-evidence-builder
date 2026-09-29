@@ -1,0 +1,9 @@
+--- SYNTHETIC SAMPLE FICTIONAL DATA ---
+RESIDENTIAL LEASE AGREEMENT (EXCERPT)
+Date: September 1, 2025
+Landlord: Northline Properties
+Tenant: Alex Morgan
+Premises: 1200 Fictional Ave, Toronto
+
+Section 7: Maintenance and Repairs
+The Tenant shall keep the premises in good condition. The Tenant is not responsible for normal wear and tear resulting from ordinary use of the premises. Any damages beyond normal wear and tear caused by the Tenant will be deducted from the security deposit.

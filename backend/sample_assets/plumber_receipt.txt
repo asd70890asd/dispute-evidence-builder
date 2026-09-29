@@ -1,0 +1,8 @@
+--- SYNTHETIC SAMPLE FICTIONAL DATA ---
+FAST FIX PLUMBING
+Date: April 2, 2026
+Service Address: 1200 Fictional Ave, Toronto
+Customer: Northline Properties
+Services Rendered: Repaired leaking pipe joint under kitchen sink.
+Total Amount Due: $150.00
+Status: PAID IN FULL

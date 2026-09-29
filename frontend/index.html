@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaseFile — Dispute Evidence Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="disclaimer-bar">
+        CaseFile organizes your materials. It is not legal advice and not a substitute for a lawyer.
+    </div>
+
+    <header class="app-header">
+        <div class="header-left">
+            <h1>CaseFile</h1>
+            <span class="badge badge-demo">Synthetic demo</span>
+        </div>
+        <div class="header-right">
+            <button id="btn-load-sample" class="btn btn-secondary">Load sample case</button>
+            <button id="btn-reset" class="btn btn-secondary">Reset</button>
+            <button id="btn-export" class="btn btn-primary">Export report</button>
+        </div>
+    </header>
+
+    <section class="toolbar">
+        <form id="upload-form" class="upload-form">
+            <input type="file" id="upload-file" name="file" required>
+            <input type="date" id="upload-date" name="date">
+            <input type="text" id="upload-description" name="description" placeholder="Optional description...">
+            <select id="upload-kind" name="kind">
+                <option value="">Auto-detect kind</option>
+                <option value="photo">Photo</option>
+                <option value="chat_log">Chat Log</option>
+                <option value="receipt">Receipt</option>
+                <option value="document">Document</option>
+            </select>
+            <button type="submit" class="btn btn-primary">Upload Material</button>
+        </form>
+    </section>
+
+    <main id="main-content" class="layout">
+        <div id="empty-state" class="empty-state">
+            <h2>Welcome to CaseFile</h2>
+            <p>Your workspace is empty. Upload materials above or load the synthetic sample case to begin.</p>
+        </div>
+
+        <section class="column col-materials hidden" id="col-materials">
+            <h2>Materials (<span id="materials-count">0</span>)</h2>
+            <div id="materials-list" class="scroll-container"></div>
+        </section>
+
+        <section class="column col-timeline hidden" id="col-timeline">
+            <h2>Timeline</h2>
+            <div id="timeline-list" class="scroll-container timeline-container"></div>
+        </section>
+
+        <section class="column col-claims hidden" id="col-claims">
+            <h2>Claims &amp; Analysis</h2>
+
+            <form id="claim-form" class="claim-form">
+                <input type="text" id="claim-text" placeholder="State a claim (e.g., 'The wall had no damage')" required>
+                <button type="submit" class="btn btn-primary">Add</button>
+            </form>
+
+            <div id="claims-list" class="scroll-container"></div>
+
+            <div id="gaps-panel" class="analysis-panel gaps-panel hidden">
+                <h3>Evidence Gaps</h3>
+                <div id="gaps-content"></div>
+            </div>
+
+            <div id="inconsistencies-panel" class="analysis-panel inconsistencies-panel hidden">
+                <h3>Inconsistencies Detected</h3>
+                <div id="inconsistencies-content"></div>
+            </div>
+        </section>
+    </main>
+
+    <dialog id="detail-modal" class="modal">
+        <div class="modal-content">
+            <button id="modal-close" class="modal-close">&times;</button>
+            <h2 id="modal-title">Material Detail</h2>
+            <div class="modal-meta">
+                <span id="modal-date" class="meta-item"></span>
+                <span id="modal-kind" class="meta-item"></span>
+            </div>
+            <p id="modal-description" class="modal-description"></p>
+            <div class="source-preview">
+                <h4>Source Text / Extracted Data</h4>
+                <pre id="modal-source"></pre>
+            </div>
+            <div id="modal-amounts" class="modal-amounts"></div>
+        </div>
+    </dialog>
+
+    <script src="app.js"></script>
+</body>
+</html>

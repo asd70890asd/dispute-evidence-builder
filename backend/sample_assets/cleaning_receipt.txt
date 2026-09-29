@@ -1,0 +1,8 @@
+--- SYNTHETIC SAMPLE FICTIONAL DATA ---
+SPOTLESS CLEANERS INC.
+Date: August 29, 2026
+Customer: Alex Morgan
+Address: 1200 Fictional Ave, Toronto
+Description: Deep cleaning of apartment unit prior to move-out.
+Total: $180.00
+Payment Method: Credit Card (PAID)
